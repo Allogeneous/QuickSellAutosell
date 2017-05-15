@@ -1,0 +1,16 @@
+name: QuickSellAutosell
+version: 1.0.0
+author: Allogeneous
+depend: [QuickSell]
+
+main: quicksellautosell.QuickSellAutosell
+
+commands:
+    qsautosell:
+        description: Autosell items.
+        usage: /qsautosell [shop]
+
+permissions:
+    qsas.canUse:
+        description: Use autosell.
+        defualt: op
